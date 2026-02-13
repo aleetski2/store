@@ -1,0 +1,282 @@
+    body
+	{
+        background: url(trak.jpg) no-repeat center center fixed; 
+        background-color: transparent;  
+		background-size: cover;		
+        color: blue;
+		font: 1em calibri, arial;
+	 }
+
+
+
+    .div
+	{
+        background: url(doorsmarket.jpg) no-repeat center center fixed; 
+        background-color: transparent;  
+		background-size: cover;		
+        color: blue;
+		font: 1em calibri, arial;
+	 }
+
+	
+	
+
+
+
+
+
+
+
+	header
+	{
+        background-color: #000000;
+		height: relative;
+		position: relative;
+		left: 150px;
+		width: 1000px;
+		
+
+	 }
+	 nav 
+	 {
+	    background-color: #000000;
+		height: 50%;
+		position: relative;
+		left: 150px;
+		width: 1000px;
+        margin-top: 0%;
+        border-radius: 30px;
+	  }
+	  
+	  
+	  ul {
+  	  	 list-style-type: none;
+ 		  overflow: hidden;
+		  
+		  position: relative;
+		  left: 150px;
+		  
+    
+		  }
+
+	li 
+{
+float :left;
+width: 200px;
+border: 2px solid;
+background-color: #0f0;
+}
+
+
+	li a
+	{
+		display: block;
+		width: 200px;
+	}
+	
+	a
+	{
+	text-decoration:none;
+	 }
+	 
+	 section
+	 {
+	 
+	 	height: relative;
+		position: relative;
+		left: 150px;
+		width: 1000px;
+        border-radius: 30px;
+		
+	 
+	  }
+	  
+	  h3
+	  {
+	  font-weight:100;
+	   }
+	   
+	   
+	  hr
+	  {
+	  height: 10px;
+	  background-color:transparent;
+	  border: 0px solid;
+	   }
+	   
+	   footer
+	   {
+        background-color:transparent;
+        background: white;  /*url(pencil.jpg) no-repeat center center fixed; */
+        background-size: cover;		
+        
+
+
+
+
+
+
+		height: 50%;
+		position: relative;
+		left: 150px;
+		width: 1000px;
+        margin-top: 0%;
+        border-radius: 30px;
+
+	    }
+
+
+        .box-shadow {
+      font-family: cursive, sans-serif;
+      background-color: white; /*#2ecc71*/
+      color: rgb(12, 15, 180);
+      padding: 10px;
+      border-radius: 4px;
+      box-shadow: 1px 1px 10px 12.5px white /*#7fecad*/
+    }
+
+
+	        .box-shadow2 {
+      font-family: cursive, sans-serif;
+      background: rgba(255, 255, 255, 0.5);
+      color: rgb(12, 15, 180);
+      padding: 10px;
+      border-radius: 4px;
+      box-shadow: 1px 1px 10px 12.5px white /*#7fecad*/
+    }
+
+
+ 	mark {
+  background-color: yellow;
+  color: black;
+}
+
+
+.highlight {
+  background-color: yellow; /* Sets the background color to yellow */
+  padding: 0 3px; /* Optional: adds slight padding around the highlight */
+  
+}
+
+
+.highlight3 {
+  background-color: rgb(255, 255, 255, 0.5); /* Sets the background color to yellow */
+  padding: 0 3px; /* Optional: adds slight padding around the highlight */
+  
+}
+
+
+
+.highlight4 {
+  background-color: rgba(12, 209, 22, 0.5); /* Sets the background color to yellow */
+  padding: 0 3px; /* Optional: adds slight padding around the highlight */
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: fit-content;
+  padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container (positioning is needed to position the close button and the text) */
+.container {
+  position: relative;
+  display: none;
+  
+}
+
+/* Expanding image text */
+#imgtext {
+  position: relative;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+
+	
+  #imgdef{
+  width: 100px; /* Ensures the image doesn't exceed the container width */
+  height: 100px;    /* Maintains the original aspect ratio */
+}
+
+
+ 
+
+
+
+
+.flex-container {
+  display: flex; /* Makes the child divs flex items in a row by default */
+  column-gap: 20px; /* Adds space between the columns */
+}
+
+#div1{
+  flex: 1; /* Makes both divs grow equally to fill the container width */
+  padding: 0px;
+  border: 0px solid #ccc;
+}
+
+
+#div2 {
+  flex: 4; /* Makes both divs grow equally to fill the container width */
+  padding: 0px;
+  border: 0px solid #ccc;
+}
+
+
+
+
+
+
+
+
+
+.expandedImg{
+	height: 600px;
+	width: 600px;
+}
+
+
+
+
+
+
+
+
+.container img {
+
+	height: 600px;
+
+	width: 400px;
+}
